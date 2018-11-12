@@ -1,0 +1,19 @@
+2018-08-22T02:40:26+00:00 CRITICAL Uncaught Error: Cannot use string offset as an array in /home/preet201290/public_html/wordpress/iwaspoisoned/wp-content/themes/flatsome-child/functions.php:254
+Stack trace:
+#0 /home/preet201290/public_html/wordpress/iwaspoisoned/wp-includes/class-wp-hook.php(288): woo_multiple_sku_search(' AND ( \n  wp_po...')
+#1 /home/preet201290/public_html/wordpress/iwaspoisoned/wp-includes/plugin.php(244): WP_Hook->apply_filters(' AND ( \n  wp_po...', Array)
+#2 /home/preet201290/public_html/wordpress/iwaspoisoned/wp-includes/class-wp-query.php(2376): apply_filters_ref_array('posts_where', Array)
+#3 /home/preet201290/public_html/wordpress/iwaspoisoned/wp-includes/class-wp-query.php(3230): WP_Query->get_posts()
+#4 /home/preet201290/public_html/wordpress/iwaspoisoned/wp-includes/class-wp.php(599): WP_Query->query(Array)
+#5 /home/preet201290/public_html/wordpress/iwaspoisoned/wp-includes/class-wp.php(715): WP->query_posts()
+#6 /home/preet201290/public_html/wordpress/iwaspoisoned/wp-includes/functions.php(960): WP->main('')
+#7
+
+2018-08-22T02:42:17+00:00 CRITICAL Uncaught Error: Call to undefined function post_pagination() in /home/preet201290/public_html/wordpress/iwaspoisoned/wp-content/themes/flatsome-child/home-template.php:128
+Stack trace:
+#0 /home/preet201290/public_html/wordpress/iwaspoisoned/wp-includes/template-loader.php(74): include()
+#1 /home/preet201290/public_html/wordpress/iwaspoisoned/wp-blog-header.php(19): require_once('/home/preet2012...')
+#2 /home/preet201290/public_html/wordpress/iwaspoisoned/index.php(17): require('/home/preet2012...')
+#3 {main}
+  thrown
+
